@@ -30,6 +30,16 @@ centos                          latest              539c0211cd76        10 month
 $ docker run -i -t y_ken/centos_rpmbuild_env
 ```
 
+## Specifications
+
+##### rpmbuild path
+
+* root : /root/rpmbuild
+* build : /home/build/rpmbuild
+
+**Note**<br>
+To switch general build user, type `su build` command.
+
 ## TODO
 
 Pull requests are very welcome!!
