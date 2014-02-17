@@ -1,6 +1,6 @@
 # docker-centos-general-rpmbuild-environment
 
-This Dockerfile privides immutable RPM build machine/infrastructure with Docker for CentOS6.x environment.
+This Dockerfile provides immutable RPM build machine/infrastructure with Docker for CentOS6.x environment.
 
 ## Usage
 
@@ -9,7 +9,7 @@ This Dockerfile privides immutable RPM build machine/infrastructure with Docker 
 `docker build` to create base template image file localy.
 
 ```sh
-$ docker build -rm -t y_ken/centos_rpmbuild_env -no-cache github.com/y-ken/docker-centos-general-rpmbuild-environment.git
+$ docker build -rm -t y_ken/centos_rpmbuild_env github.com/y-ken/docker-centos-general-rpmbuild-environment.git
 ```
 
 After finished build, you can see new image like below.
