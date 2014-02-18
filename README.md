@@ -27,7 +27,7 @@ centos                          latest              539c0211cd76        10 month
 `docker run` to execute the virtual machie from base template everytime.<br>
 
 ```sh
-$ docker run -i -t y_ken/centos_rpmbuild_env
+$ docker run -i -t y_ken/centos_rpmbuild_env /bin/bash --login
 ```
 
 ## Specifications
